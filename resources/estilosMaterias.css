@@ -1,0 +1,242 @@
+<style type="text/css">
+
+#izq{
+	width: 887px;
+	height: 150 px; overflow: hidden;
+	padding: 5px; color: gray;
+	text-align: center;
+}
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: darkgoldenrod;
+}
+
+#logo{
+	width: 200px;
+	height: 130px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+#subtitulos
+{
+	color: #4682b4
+}
+#contenedor {
+    display: table;
+    border: 2px solid #000;
+	width: 900px;
+	height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+#fila {
+  display: table-row;
+	background-color:bisque ;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+
+#columna1M{
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#DerechosAutor
+{
+	background-color: lightgrey;
+	margin-top: 12px;
+	margin-bottom: 50px;
+	padding: 5px; color: #4682b4;
+	border: 1px solid #ccc;
+	height: 70px; overflow: hidden;
+}
+
+#der{
+
+	width: 888px;
+	height: 400px; overflow: hidden;
+	padding: 5px; color: #4682b4;
+	text-align: center;
+	border: 1px solid #ccc;
+	color: none;
+	margin-top:12px;
+}
+.titulo{
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.sub-titulo{
+	font-size: 14px;
+	margin-top: -20px;
+}
+
+.menu{
+	width: 460px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 50px;
+	background: chocolate;
+}
+
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff; 
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top: 23px;
+	width: 900px;
+	height: 250px;
+}
+
+#slide1{
+	margin-top: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 250px;
+}
+
+#DerechosAutor1
+{
+	background-color: lightgrey;
+	margin-top: 12px;
+	margin-bottom: 50px;
+	padding: 5px; color: #4682b4;
+	border: 1px solid #ccc;
+  height: 70px; overflow: hidden;
+  width: 900px;
+  
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.uno{
+	margin-top: 15px;
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid none;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+	color: red;
+}
+
+
+
+/*------------contacto------------------------*/
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: left
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; padding: 6px;
+	width: 97%;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+
+
+#datos{
+	margin-top: 30px;
+}
+
+
+#columna1Ms{
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+}
+.star-rating a {
+  display: inline-block;
+  color: #f39c12; /* gris (normal) */
+}
+.star-rating:hover a {
+  color: #f39c12; /* amarillo (seleccionado) */
+}
+  .star-rating:hover a:hover ~ a {
+    color: #95a5a6; /* gris (normal) */
+  }
+</style>
